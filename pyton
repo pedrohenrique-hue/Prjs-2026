@@ -1,0 +1,17 @@
+import cv2
+import numpy as np
+
+# Carregar imagem
+img = cv2.imread('imagem.jpg')
+
+# Definir a área de interesse (y1:y2, x1:x2)
+# Exemplo: Uma caixa que começa no pixel (100, 200) e tem 150x150 pixels
+roi = img[100:250, 200:350]
+
+# Agora você pode processar apenas a 'roi' (ex: aplicar desfoque)
+# roi_blur = cv2.GaussianBlur(roi, (15, 15), 0)
+
+# Exibir ou salvar a ROI
+cv2.imshow('ROI', roi)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
