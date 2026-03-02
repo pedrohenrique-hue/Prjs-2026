@@ -8,7 +8,12 @@
 <body>
     <h1>Ola, Mundo!</h1>
     <p>Conteudo da pagina.</p>
+<<<<<<< HEAD
     <p>modificado</p>
     <p>ola</p>
+=======
+    <p>modificado<p>
+    <p>ola<p>
+>>>>>>> 4d0644f3f72fd53e0ad7b044bf720e685b4cf8d1
 </body>
 </html>
